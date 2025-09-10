@@ -38,7 +38,7 @@ def ex_tres(objs, name, default=None, field='count'):
 opts = dict(opts)
 
 if 'v' in opts:
-    print("NeSI version of seff")
+    print("KIR version of seff")
     sys.exit(1)
 if 'h' in opts or not (args or '-j' in opts):
     print("Usage: seff [Options] <JobID>")
