@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+# Author : Dinindu Senanayake
 # This script is roughtly equivalent to:
 # sacct -P -n -a --format JobID,User,State,Cluster,AllocCPUS,REQMEM,TotalCPU,Elapsed,MaxRSS,NNodes,NTasks -j <job_id>
 
